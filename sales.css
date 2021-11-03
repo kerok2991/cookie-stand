@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'Ceviche One', cursive;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    font-family: 'Ceviche One', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header {
+    background-color: salmon;
+}
+
+body {
+    background-color: teal;
+}
+
+header img {
+    background-color: none;
+    width: 250px;
+	height: 150px;
+	border-radius: 35%;
+    transform: rotate(-75deg);
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+footer p {
+    color: white;
+    width: 768px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    background-color: salmon;
+    opacity: 75%;
+}
