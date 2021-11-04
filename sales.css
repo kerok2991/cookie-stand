@@ -9,6 +9,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-decoration: overline underline white;
+}
+
 a {
     font-family: 'Ceviche One', cursive;
     font-size: 60px;
