@@ -122,14 +122,16 @@ header img {
 
 .businessInfo {
         margin: auto;
+        margin-bottom: 30px;
         width: 50%;
         padding: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
 }
 
 .about {
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 30px;
     padding: 5px;
     width: 13%;
     border-radius: 30px;
@@ -147,6 +149,7 @@ header img {
 .images {
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding: 5px;
     width: 25%;
     border-radius: 30px;
