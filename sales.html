@@ -25,7 +25,50 @@
         <a href="index.html">Home</a>
     </h2>
     <h3>Salmon Cookies Sales Data</h3>
-   
+    <form id='addLocation'>
+        <fieldset>
+            <legend>Add a Location</legend>
+            <section class="inputForm">
+                <label for="name">Location Name:</label>
+                <input type="text" name="locationName" autocomplete="off" required>
+
+                <label for="min">Minimum Customers Per Hour:</label>
+                <input type="number" name="minCust" autocomplete="off" required>
+            </section>
+
+            <section class="inputForm">
+                <label for="max">Maximum Customers Per Hour:</label>
+                <input type="number" name="maxCust" autocomplete="off" required>
+
+                <label for="avg"> Average Cookies Sold:</label>
+                <input type="number" name="avgCookie" autocomplete="off" required>
+            </section>
+            <input type="submit" value="Add" id="button">
+        </fieldset>
+    </form>
+
+    <table id="sales">
+        <th>
+            <tr class="salesHeader">
+                <td>Location</td>
+                <td>6:00am</td>
+                <td>7:00am</td>
+                <td>8:00am</td>
+                <td>9:00am</td>
+                <td>10:00am</td>
+                <td>11:00am</td>
+                <td>12:00pm</td>
+                <td>1:00pm</td>
+                <td>2:00pm</td>
+                <td>3:00pm</td>
+                <td>4:00pm</td>
+                <td>5:00pm</td>
+                <td>6:00pm</td>
+                <td>7:00pm</td>
+                <td>Daily Total</td>
+            </tr>
+        </th>
+    </table>
         
     </Main>    
 
